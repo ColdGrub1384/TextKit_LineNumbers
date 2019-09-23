@@ -27,4 +27,6 @@
 
 - (id)initWithCoder:(NSCoder *)aDecoder NS_UNAVAILABLE;
 
+-(id)initWithFrame:(CGRect) frame andTextStorage:(NSTextStorage *)textStorage;
+
 @end
